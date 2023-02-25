@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  align-content: center;
+}
+
+.navbar{
+    background-color: black;
+    height: 10vh;
+    color: white;
+    font-size: 30px;
+    padding:  20px;
+}
+
+#create{
+    margin: 30px  80px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+#save{
+    margin: 30px  80px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 90%;
+    margin-bottom: 2px solid black;
+    border: 1px solid black;
+}
+
+th{
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    padding: 10px 15px;
+}
+
+tbody tr {
+    border-right: 1px solid black;
+    text-align: center;
+    height: 50px;
+}
+
+td {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 20px;
+}
+
+input {
+    height: 30px;
+    width: 230px;
+    padding: 10px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: none;
+    background-color: #ffffff;
+  }
+  
+.no-outline:focus {
+    outline: none;
+  }
